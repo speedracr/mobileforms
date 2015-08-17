@@ -1,8 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+h4 {
+  font-size: 1.2rem;
+}
 
-body {
-  font-family: 'Open Sans';
-  color: #141414;
+label {
+  font-size: 1rem;
+}
+
+form {
+  margin-top:  2rem;
 }
 
 .logo-wrapper {
@@ -41,4 +46,12 @@ h2.title {
 
 .nav-buttons {
   margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.slide > .row {
+  margin-top: 0.4rem;
 }
