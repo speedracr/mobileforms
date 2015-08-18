@@ -68,6 +68,32 @@ ul {
   text-align: center;
 }
 
-tbody {
+tbody > tr:nth-child(2n) {
   border-bottom: 3px solid #141414;
+  margin-bottom: 0.4rem;
+}
+
+tbody > tr:nth-child(2n+1) > td {
+  padding-top: 1.2rem;
+  font-size: 1rem;
+}
+
+td.ss-gridrow:first-child {
+  background: #008000;
+}
+
+td.ss-gridrow:nth-child(2) {
+  background: rgba(0,128,0, 0.5);
+}
+
+td.ss-gridrow:nth-child(3) {
+  background: yellow;
+}
+
+td.ss-gridrow:nth-child(4) {
+  background: rgba(255,0,0,0.5);
+}
+
+td.ss-gridrow:last-child {
+  background: rgba(255,0,0,1);
 }
