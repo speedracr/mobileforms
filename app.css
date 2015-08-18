@@ -56,10 +56,18 @@ ul {
   margin-top: 0.4rem;
 }
 
-.form-table {
+.survey-table {
   max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
-table {
-  font-size: 0.8rem;
+.question-title,
+.ss-gridnumbers,
+.ss-grid-button-wrapper {
+  text-align: center;
+}
+
+tbody {
+  border-bottom: 3px solid #141414;
 }
