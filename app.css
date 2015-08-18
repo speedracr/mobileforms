@@ -55,3 +55,11 @@ ul {
 .slide > .row {
   margin-top: 0.4rem;
 }
+
+.form-table {
+  max-width: 100%;
+}
+
+table {
+  font-size: 0.8rem;
+}
