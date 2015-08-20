@@ -78,22 +78,27 @@ tbody > tr:nth-child(2n+1) > td {
   font-size: 1rem;
 }
 
-td.ss-gridrow:first-child {
+.form-table td.ss-gridrow:first-child {
   background: #008000;
 }
 
-td.ss-gridrow:nth-child(2) {
+.form-table td.ss-gridrow:nth-child(2) {
   background: rgba(0,128,0, 0.5);
 }
 
-td.ss-gridrow:nth-child(3) {
-  background: yellow;
+.form-table td.ss-gridrow:nth-child(3) {
+  background: #EFEF6A;
 }
 
-td.ss-gridrow:nth-child(4) {
+.form-table td.ss-gridrow:nth-child(4) {
   background: rgba(255,0,0,0.5);
 }
 
-td.ss-gridrow:last-child {
+.form-table td.ss-gridrow:last-child {
   background: rgba(255,0,0,1);
+}
+
+label.mid-title {
+  font-weight: 700;
+  margin-bottom: 12px;
 }
